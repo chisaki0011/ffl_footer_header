@@ -1,0 +1,163 @@
+/* CSS that affects everything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Futura;
+    font-size: 1rem;
+    color: #000;
+}
+
+body {
+    max-width: 1312px;
+    display: block;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/* Header/Navigation Bar CSS */
+.sticky-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+
+.logo img {
+    display: block;
+    margin: auto;
+    width: 115px;
+}
+
+.nav-bar {
+    align-self: center;
+}
+
+nav {
+    display: block;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-weight: 800;
+}
+
+nav ul li {
+    padding: 0 0 0 50px;
+    height: inherit;
+    text-align: center;
+}
+
+nav ul li a img {
+    display: block;
+    width: 20px;
+}
+
+nav ul li a img {
+    display: block;
+    width: 20px;
+}
+
+.user {
+    width: 22.5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: auto;
+    color: #000;
+}
+
+
+/* Footer CSS */
+footer {
+    background-color: #e2fee8;
+    padding: 100px 0 0 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-design {
+    display: block;
+    margin: auto 0;
+}
+
+.logo-design img {
+    width: 70px;
+    display: block;
+    margin: auto 70px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
+.quicklinks-1 a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+
+}
+
+.quicklinks-2 a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.quicklinks-1,
+.quicklinks-2 {
+    display: block;
+    padding: 0 60px 0 0;
+}
+
+.newsletter {
+    padding: 0 70px 0 0;
+}
+
+.newsletter legend {
+    font-weight: 800;
+}
+
+.newsletter form [type=email] {
+    font-family: Futura;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 7.5px 0 7.5px 15px;
+}
+
+.newsletter form [type=submit] {
+    font-family: Futura;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 7.5px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.copyright p {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 70px 0 50px 0;
+}

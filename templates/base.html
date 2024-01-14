@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Futura Font just incause users do not have the font locally installed in their devices -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='static/font.css') }}">
+
+    <!-- Base CSS for the template -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='static/styles.css') }}">
+   
+    <!-- Tab Ion -->
+    <link rel="icon" type="image/x-icon" href="static/assets/ffl.ico">
+
+    <!-- Should be this one if not remove Line 16 & 17 -->
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename=static/assets/ffl.ico) }}">
+
+    <!-- Title of Tab in the webpage -->
+    <!-- Jinja Semantic for Title -->
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+
+    <!-- Jinja Semantic for Navigation -->
+    {% block navbar %}
+        {% include 'includes/_navbar.html' %}
+    {% endblock %}
+
+    <!-- Jinja Semantic for Content -->
+    {% block content %}
+    {% endblock %}
+    
+
+    {% block footer %}
+    {% include 'includes/_footer.html' %}
+    {% endblock %}
+
+</body>
+</html>
