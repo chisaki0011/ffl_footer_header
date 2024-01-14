@@ -3,7 +3,7 @@
 ## Basic Rundown
     - Do NOT temper around with format of the CSS linking in Base.html (I'm following the Jinja semantic)
 
-    - Tempering with the CSS semantic in Base.html will cause the link to not proper
+    - Tempering with the CSS semantic in Base.html will cause the link to not work properly
 
     - 'base.html' is the base template for what is needed throughout ALL webpages
     (In this case, it is the Header and Footer)
